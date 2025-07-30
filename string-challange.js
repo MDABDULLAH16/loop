@@ -12,7 +12,7 @@ for (const char of names) {
 
 const sentences = 'I love coding';
 const arrayOfSentence = sentences.split(" ")
-console.log(arrayOfSentence);
+// console.log(arrayOfSentence);
 
 let sentence =[]
 
@@ -26,7 +26,25 @@ let sentence =[]
 
 
 const finalSentence = sentence.join(' ')
-    console.log(finalSentence);
+// console.log(finalSentence);
+    
+// check palindrome
+
+const palindromeWords = 'madam';
+let palindrome = ''
+for (const char of palindromeWords) {
+
+    palindrome = char + palindrome; 
+    
+    
+}
+if (palindromeWords == palindrome) {
+    console.log('this is palindrome word:', palindrome);
+        
+} else {
+    console.log('this is not palindrome word: ', palindrome);
+    
+}
     
 
 
