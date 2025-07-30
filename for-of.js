@@ -8,15 +8,23 @@ for (const number of numbers) {
 // log the word 
 const names = 'amar sunar bangla re'
 const words = names.split(' ')
-console.log(words);
+// console.log(words);
 
 for (const char of words) {
     // console.log(nam);    
-    console.log(char);
-    
-    
-    
-    
-    
-    
+    // console.log(char);
 }
+
+//count vowel
+
+const text = 'Programming is fun for coding';
+
+const vowel = 'aeiouAEIOU';
+let count = 0;
+for (const char of text) {
+    if (vowel.includes(char)) {
+      count++
+  }
+
+}
+console.log('vowel:',count);
