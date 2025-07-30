@@ -27,4 +27,14 @@ for (const char of text) {
   }
 
 }
-console.log('vowel:',count);
+// console.log('vowel:',count);
+
+const abdullah = 'Abdullah';
+let reversed = '';
+for (const char of abdullah) {
+    // console.log(char);
+    reversed = char + reversed
+    console.log(reversed);    
+    
+}
+console.log(reversed);
