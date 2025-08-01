@@ -18,3 +18,8 @@ console.log(friends.join("-"));
 const checkIncludes = "Bangladesh";
 
 console.log(checkIncludes.includes("d"));
+
+const normalSentences = "I am Bangladeshi web developer";
+const reversedSentence = normalSentences.split(" ").reverse().join(" ");
+
+console.log(reversedSentence);
